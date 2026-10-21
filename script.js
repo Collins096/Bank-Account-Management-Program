@@ -34,4 +34,8 @@ class BankAccount {
 
     return `Successfully withdrew $${amount}. New balance: $${this.balance}`;
   }
+
+  checkBalance() {
+    return `Current balance: $${this.balance}`;
+  }
 }
